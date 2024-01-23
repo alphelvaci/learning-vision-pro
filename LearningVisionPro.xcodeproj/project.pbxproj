@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE770F582B603B6A00900470 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = CE770F572B603B6A00900470 /* RealityKitContent */; };
+		CE770F5A2B603B6A00900470 /* LearningVisionProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE770F592B603B6A00900470 /* LearningVisionProApp.swift */; };
+		CE770F5C2B603B6A00900470 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE770F5B2B603B6A00900470 /* ContentView.swift */; };
+		CE770F5E2B603B6A00900470 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE770F5D2B603B6A00900470 /* ImmersiveView.swift */; };
+		CE770F602B603B6A00900470 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = CE770F5F2B603B6A00900470 /* ImageBasedLighting.skybox */; };
+		CE770F622B603B6C00900470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE770F612B603B6C00900470 /* Assets.xcassets */; };
+		CE770F652B603B6C00900470 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE770F642B603B6C00900470 /* Preview Assets.xcassets */; };
+		CE770F702B603B6C00900470 /* LearningVisionProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE770F6F2B603B6C00900470 /* LearningVisionProTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE770F6C2B603B6C00900470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE770F4A2B603B6A00900470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE770F512B603B6A00900470;
+			remoteInfo = LearningVisionPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE770F522B603B6A00900470 /* LearningVisionPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningVisionPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE770F562B603B6A00900470 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		CE770F592B603B6A00900470 /* LearningVisionProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningVisionProApp.swift; sourceTree = "<group>"; };
+		CE770F5B2B603B6A00900470 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE770F5D2B603B6A00900470 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		CE770F5F2B603B6A00900470 /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
+		CE770F612B603B6C00900470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE770F642B603B6C00900470 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE770F662B603B6C00900470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE770F6B2B603B6C00900470 /* LearningVisionProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningVisionProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE770F6F2B603B6C00900470 /* LearningVisionProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningVisionProTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE770F4F2B603B6A00900470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE770F582B603B6A00900470 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE770F682B603B6C00900470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE770F492B603B6A00900470 = {
+			isa = PBXGroup;
+			children = (
+				CE770F542B603B6A00900470 /* LearningVisionPro */,
+				CE770F552B603B6A00900470 /* Packages */,
+				CE770F6E2B603B6C00900470 /* LearningVisionProTests */,
+				CE770F532B603B6A00900470 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE770F532B603B6A00900470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE770F522B603B6A00900470 /* LearningVisionPro.app */,
+				CE770F6B2B603B6C00900470 /* LearningVisionProTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE770F542B603B6A00900470 /* LearningVisionPro */ = {
+			isa = PBXGroup;
+			children = (
+				CE770F592B603B6A00900470 /* LearningVisionProApp.swift */,
+				CE770F5B2B603B6A00900470 /* ContentView.swift */,
+				CE770F5D2B603B6A00900470 /* ImmersiveView.swift */,
+				CE770F5F2B603B6A00900470 /* ImageBasedLighting.skybox */,
+				CE770F612B603B6C00900470 /* Assets.xcassets */,
+				CE770F662B603B6C00900470 /* Info.plist */,
+				CE770F632B603B6C00900470 /* Preview Content */,
+			);
+			path = LearningVisionPro;
+			sourceTree = "<group>";
+		};
+		CE770F552B603B6A00900470 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				CE770F562B603B6A00900470 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		CE770F632B603B6C00900470 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE770F642B603B6C00900470 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE770F6E2B603B6C00900470 /* LearningVisionProTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE770F6F2B603B6C00900470 /* LearningVisionProTests.swift */,
+			);
+			path = LearningVisionProTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE770F512B603B6A00900470 /* LearningVisionPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE770F732B603B6C00900470 /* Build configuration list for PBXNativeTarget "LearningVisionPro" */;
+			buildPhases = (
+				CE770F4E2B603B6A00900470 /* Sources */,
+				CE770F4F2B603B6A00900470 /* Frameworks */,
+				CE770F502B603B6A00900470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearningVisionPro;
+			packageProductDependencies = (
+				CE770F572B603B6A00900470 /* RealityKitContent */,
+			);
+			productName = LearningVisionPro;
+			productReference = CE770F522B603B6A00900470 /* LearningVisionPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE770F6A2B603B6C00900470 /* LearningVisionProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE770F762B603B6C00900470 /* Build configuration list for PBXNativeTarget "LearningVisionProTests" */;
+			buildPhases = (
+				CE770F672B603B6C00900470 /* Sources */,
+				CE770F682B603B6C00900470 /* Frameworks */,
+				CE770F692B603B6C00900470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE770F6D2B603B6C00900470 /* PBXTargetDependency */,
+			);
+			name = LearningVisionProTests;
+			productName = LearningVisionProTests;
+			productReference = CE770F6B2B603B6C00900470 /* LearningVisionProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE770F4A2B603B6A00900470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CE770F512B603B6A00900470 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CE770F6A2B603B6C00900470 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CE770F512B603B6A00900470;
+					};
+				};
+			};
+			buildConfigurationList = CE770F4D2B603B6A00900470 /* Build configuration list for PBXProject "LearningVisionPro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE770F492B603B6A00900470;
+			productRefGroup = CE770F532B603B6A00900470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE770F512B603B6A00900470 /* LearningVisionPro */,
+				CE770F6A2B603B6C00900470 /* LearningVisionProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE770F502B603B6A00900470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE770F622B603B6C00900470 /* Assets.xcassets in Resources */,
+				CE770F652B603B6C00900470 /* Preview Assets.xcassets in Resources */,
+				CE770F602B603B6A00900470 /* ImageBasedLighting.skybox in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE770F692B603B6C00900470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE770F4E2B603B6A00900470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE770F5C2B603B6A00900470 /* ContentView.swift in Sources */,
+				CE770F5A2B603B6A00900470 /* LearningVisionProApp.swift in Sources */,
+				CE770F5E2B603B6A00900470 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE770F672B603B6C00900470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE770F702B603B6C00900470 /* LearningVisionProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE770F6D2B603B6C00900470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE770F512B603B6A00900470 /* LearningVisionPro */;
+			targetProxy = CE770F6C2B603B6C00900470 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE770F712B603B6C00900470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		CE770F722B603B6C00900470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		CE770F742B603B6C00900470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LearningVisionPro/Preview Content\"";
+				DEVELOPMENT_TEAM = X75MSWSSNS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alphelvaci.LearningVisionPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		CE770F752B603B6C00900470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LearningVisionPro/Preview Content\"";
+				DEVELOPMENT_TEAM = X75MSWSSNS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alphelvaci.LearningVisionPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		CE770F772B603B6C00900470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X75MSWSSNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alphelvaci.LearningVisionProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearningVisionPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearningVisionPro";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		CE770F782B603B6C00900470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X75MSWSSNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alphelvaci.LearningVisionProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearningVisionPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearningVisionPro";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE770F4D2B603B6A00900470 /* Build configuration list for PBXProject "LearningVisionPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE770F712B603B6C00900470 /* Debug */,
+				CE770F722B603B6C00900470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE770F732B603B6C00900470 /* Build configuration list for PBXNativeTarget "LearningVisionPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE770F742B603B6C00900470 /* Debug */,
+				CE770F752B603B6C00900470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE770F762B603B6C00900470 /* Build configuration list for PBXNativeTarget "LearningVisionProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE770F772B603B6C00900470 /* Debug */,
+				CE770F782B603B6C00900470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE770F572B603B6A00900470 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CE770F4A2B603B6A00900470 /* Project object */;
+}
